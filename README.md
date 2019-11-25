@@ -28,22 +28,22 @@ A benchmark of benchmark workflow or comparision of dimensional reduction method
 ./workflow.sh
 ```
 
-### Makefile
+### Makefile workflow
 ```
 make
 ```
 
-### Rakefile
+### Rakefile workflow
 ```
 rake
 ```
 
-### Snakemake
+### Snakemake workflow
 ```
 snakemake
 ```
 
-### Papermill
+### Papermill workflow
 ```
 papermill workflow.ipynb output/papermill/output.ipynb \
 -p infile data/input.csv -p infile2 data/label.csv -p  \
@@ -52,7 +52,7 @@ outdir output/papermill -p pca_ndim 3 -p nmf_ndim 4  \
 -p lle_ndim 2 -p dmap_ndim 4 -p tsne_ndim 2 -p umap_ndim 2 \
 -p tumap_ndim 2 -p fatlas2_ndim 2
 ```
-## CWL
+## CWL workflow
 ```
 cwltool workflow.cwl
 ```
