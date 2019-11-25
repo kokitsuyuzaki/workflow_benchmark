@@ -24,26 +24,31 @@ A benchmark of benchmark workflow or comparision of dimensional reduction method
 
 ## How to perform these workflows
 ### Bash workflow
+
 ```bash
 ./workflow.sh
 ```
 
 ### Makefile workflow
+
 ```bash
 make
 ```
 
 ### Rakefile workflow
+
 ```bash
 rake
 ```
 
 ### Snakemake workflow
+
 ```bash
 snakemake
 ```
 
 ### Papermill workflow
+
 ```bash
 papermill workflow.ipynb output/papermill/output.ipynb \
 -p infile data/input.csv -p infile2 data/label.csv -p  \
@@ -54,6 +59,7 @@ outdir output/papermill -p pca_ndim 3 -p nmf_ndim 4  \
 ```
 
 ## CWL workflow
+
 ```bash
 cwltool workflow.cwl
 ```
