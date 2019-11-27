@@ -30,13 +30,13 @@ A benchmark of benchmark workflow or comparision of dimensional reduction method
 ./workflow.sh
 ```
 
-### Makefile workflow
+### Make workflow
 
 ```{bash}
 make
 ```
 
-### Rakefile workflow
+### Rake workflow
 
 ```{bash}
 rake
